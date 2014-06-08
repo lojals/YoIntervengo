@@ -9,4 +9,10 @@ Yo Intervengo es una plataforma que permite hacer una veeduria cuidadana de form
 En este repositorio encontraras el codigo fuente, de la plataforma que se desarrollo durante #LaRutaDelDinero
 
 
-[APP] : https://projects.invisionapp.com/share/BTWT4GZ3#/screens
+La configuración para consumir el API se encuentra en NewsViewController.m 
+```
+@"http://localhost:3000/obras/0"
+```
+
+
+[APP]: http://invis.io/BTWT4GZ3
