@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC001B141943E06A00B56EDD /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EC001B131943E06A00B56EDD /* bg.png */; };
+		EC001B171943E14A00B56EDD /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EC001B151943E14A00B56EDD /* btn.png */; };
+		EC001B181943E14A00B56EDD /* btnh.png in Resources */ = {isa = PBXBuildFile; fileRef = EC001B161943E14A00B56EDD /* btnh.png */; };
+		EC118CF41943ED030040BF30 /* btnK.png in Resources */ = {isa = PBXBuildFile; fileRef = EC118CF31943ED030040BF30 /* btnK.png */; };
+		EC118CF71943EF5C0040BF30 /* NVControllerGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = EC118CF61943EF5C0040BF30 /* NVControllerGeneric.m */; };
+		EC118CF91943F4DC0040BF30 /* dates.png in Resources */ = {isa = PBXBuildFile; fileRef = EC118CF81943F4DC0040BF30 /* dates.png */; };
+		EC1DC2B91943CC7F00DCCD93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1DC2B81943CC7F00DCCD93 /* Foundation.framework */; };
+		EC1DC2BB1943CC7F00DCCD93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1DC2BA1943CC7F00DCCD93 /* CoreGraphics.framework */; };
+		EC1DC2BD1943CC7F00DCCD93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1DC2BC1943CC7F00DCCD93 /* UIKit.framework */; };
+		EC1DC2C31943CC7F00DCCD93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC1DC2C11943CC7F00DCCD93 /* InfoPlist.strings */; };
+		EC1DC2C51943CC7F00DCCD93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC2C41943CC7F00DCCD93 /* main.m */; };
+		EC1DC2C91943CC7F00DCCD93 /* _66AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC2C81943CC7F00DCCD93 /* _66AppDelegate.m */; };
+		EC1DC2CC1943CC7F00DCCD93 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1DC2CA1943CC7F00DCCD93 /* Main_iPhone.storyboard */; };
+		EC1DC2CF1943CC7F00DCCD93 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1DC2CD1943CC7F00DCCD93 /* Main_iPad.storyboard */; };
+		EC1DC2D21943CC7F00DCCD93 /* _66ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC2D11943CC7F00DCCD93 /* _66ViewController.m */; };
+		EC1DC2D41943CC7F00DCCD93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1DC2D31943CC7F00DCCD93 /* Images.xcassets */; };
+		EC1DC2DB1943CC7F00DCCD93 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1DC2DA1943CC7F00DCCD93 /* XCTest.framework */; };
+		EC1DC2DC1943CC7F00DCCD93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1DC2B81943CC7F00DCCD93 /* Foundation.framework */; };
+		EC1DC2DD1943CC7F00DCCD93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1DC2BC1943CC7F00DCCD93 /* UIKit.framework */; };
+		EC1DC2E51943CC7F00DCCD93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC1DC2E31943CC7F00DCCD93 /* InfoPlist.strings */; };
+		EC1DC2E71943CC7F00DCCD93 /* Yo_IntervengoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC2E61943CC7F00DCCD93 /* Yo_IntervengoTests.m */; };
+		EC7E69821943D17E00852664 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7E69811943D17E00852664 /* NewsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1DC2DE1943CC7F00DCCD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1DC2AD1943CC7F00DCCD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1DC2B41943CC7F00DCCD93;
+			remoteInfo = "Yo Intervengo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC001B131943E06A00B56EDD /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		EC001B151943E14A00B56EDD /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
+		EC001B161943E14A00B56EDD /* btnh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnh.png; sourceTree = "<group>"; };
+		EC118CF31943ED030040BF30 /* btnK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnK.png; sourceTree = "<group>"; };
+		EC118CF51943EF5C0040BF30 /* NVControllerGeneric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVControllerGeneric.h; sourceTree = "<group>"; };
+		EC118CF61943EF5C0040BF30 /* NVControllerGeneric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVControllerGeneric.m; sourceTree = "<group>"; };
+		EC118CF81943F4DC0040BF30 /* dates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dates.png; sourceTree = "<group>"; };
+		EC1DC2B51943CC7F00DCCD93 /* Yo Intervengo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yo Intervengo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1DC2B81943CC7F00DCCD93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC1DC2BA1943CC7F00DCCD93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC1DC2BC1943CC7F00DCCD93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC1DC2C01943CC7F00DCCD93 /* Yo Intervengo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yo Intervengo-Info.plist"; sourceTree = "<group>"; };
+		EC1DC2C21943CC7F00DCCD93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC1DC2C41943CC7F00DCCD93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC1DC2C61943CC7F00DCCD93 /* Yo Intervengo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yo Intervengo-Prefix.pch"; sourceTree = "<group>"; };
+		EC1DC2C71943CC7F00DCCD93 /* _66AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _66AppDelegate.h; sourceTree = "<group>"; };
+		EC1DC2C81943CC7F00DCCD93 /* _66AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _66AppDelegate.m; sourceTree = "<group>"; };
+		EC1DC2CB1943CC7F00DCCD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EC1DC2CE1943CC7F00DCCD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EC1DC2D01943CC7F00DCCD93 /* _66ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _66ViewController.h; sourceTree = "<group>"; };
+		EC1DC2D11943CC7F00DCCD93 /* _66ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _66ViewController.m; sourceTree = "<group>"; };
+		EC1DC2D31943CC7F00DCCD93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC1DC2D91943CC7F00DCCD93 /* Yo IntervengoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yo IntervengoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1DC2DA1943CC7F00DCCD93 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC1DC2E21943CC7F00DCCD93 /* Yo IntervengoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yo IntervengoTests-Info.plist"; sourceTree = "<group>"; };
+		EC1DC2E41943CC7F00DCCD93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC1DC2E61943CC7F00DCCD93 /* Yo_IntervengoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yo_IntervengoTests.m; sourceTree = "<group>"; };
+		EC7E69801943D17E00852664 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = views/NewsViewController.h; sourceTree = "<group>"; };
+		EC7E69811943D17E00852664 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = views/NewsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1DC2B21943CC7F00DCCD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1DC2BB1943CC7F00DCCD93 /* CoreGraphics.framework in Frameworks */,
+				EC1DC2BD1943CC7F00DCCD93 /* UIKit.framework in Frameworks */,
+				EC1DC2B91943CC7F00DCCD93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1DC2D61943CC7F00DCCD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1DC2DB1943CC7F00DCCD93 /* XCTest.framework in Frameworks */,
+				EC1DC2DD1943CC7F00DCCD93 /* UIKit.framework in Frameworks */,
+				EC1DC2DC1943CC7F00DCCD93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC001B121943E06A00B56EDD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EC118CF81943F4DC0040BF30 /* dates.png */,
+				EC118CF31943ED030040BF30 /* btnK.png */,
+				EC001B151943E14A00B56EDD /* btn.png */,
+				EC001B161943E14A00B56EDD /* btnh.png */,
+				EC001B131943E06A00B56EDD /* bg.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		EC1DC2AC1943CC7F00DCCD93 = {
+			isa = PBXGroup;
+			children = (
+				EC1DC2BE1943CC7F00DCCD93 /* Yo Intervengo */,
+				EC1DC2E01943CC7F00DCCD93 /* Yo IntervengoTests */,
+				EC1DC2B71943CC7F00DCCD93 /* Frameworks */,
+				EC1DC2B61943CC7F00DCCD93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1DC2B61943CC7F00DCCD93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1DC2B51943CC7F00DCCD93 /* Yo Intervengo.app */,
+				EC1DC2D91943CC7F00DCCD93 /* Yo IntervengoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1DC2B71943CC7F00DCCD93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC1DC2B81943CC7F00DCCD93 /* Foundation.framework */,
+				EC1DC2BA1943CC7F00DCCD93 /* CoreGraphics.framework */,
+				EC1DC2BC1943CC7F00DCCD93 /* UIKit.framework */,
+				EC1DC2DA1943CC7F00DCCD93 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC1DC2BE1943CC7F00DCCD93 /* Yo Intervengo */ = {
+			isa = PBXGroup;
+			children = (
+				EC1DC2C71943CC7F00DCCD93 /* _66AppDelegate.h */,
+				EC1DC2C81943CC7F00DCCD93 /* _66AppDelegate.m */,
+				EC118CF51943EF5C0040BF30 /* NVControllerGeneric.h */,
+				EC118CF61943EF5C0040BF30 /* NVControllerGeneric.m */,
+				EC1DC2CA1943CC7F00DCCD93 /* Main_iPhone.storyboard */,
+				EC1DC2CD1943CC7F00DCCD93 /* Main_iPad.storyboard */,
+				EC1DC2D01943CC7F00DCCD93 /* _66ViewController.h */,
+				EC1DC2D11943CC7F00DCCD93 /* _66ViewController.m */,
+				EC1DC2D31943CC7F00DCCD93 /* Images.xcassets */,
+				EC1DC2BF1943CC7F00DCCD93 /* Supporting Files */,
+				EC7E69801943D17E00852664 /* NewsViewController.h */,
+				EC7E69811943D17E00852664 /* NewsViewController.m */,
+			);
+			path = "Yo Intervengo";
+			sourceTree = "<group>";
+		};
+		EC1DC2BF1943CC7F00DCCD93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC001B121943E06A00B56EDD /* images */,
+				EC1DC2C01943CC7F00DCCD93 /* Yo Intervengo-Info.plist */,
+				EC1DC2C11943CC7F00DCCD93 /* InfoPlist.strings */,
+				EC1DC2C41943CC7F00DCCD93 /* main.m */,
+				EC1DC2C61943CC7F00DCCD93 /* Yo Intervengo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC1DC2E01943CC7F00DCCD93 /* Yo IntervengoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1DC2E61943CC7F00DCCD93 /* Yo_IntervengoTests.m */,
+				EC1DC2E11943CC7F00DCCD93 /* Supporting Files */,
+			);
+			path = "Yo IntervengoTests";
+			sourceTree = "<group>";
+		};
+		EC1DC2E11943CC7F00DCCD93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC1DC2E21943CC7F00DCCD93 /* Yo IntervengoTests-Info.plist */,
+				EC1DC2E31943CC7F00DCCD93 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1DC2B41943CC7F00DCCD93 /* Yo Intervengo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1DC2EA1943CC7F00DCCD93 /* Build configuration list for PBXNativeTarget "Yo Intervengo" */;
+			buildPhases = (
+				EC1DC2B11943CC7F00DCCD93 /* Sources */,
+				EC1DC2B21943CC7F00DCCD93 /* Frameworks */,
+				EC1DC2B31943CC7F00DCCD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yo Intervengo";
+			productName = "Yo Intervengo";
+			productReference = EC1DC2B51943CC7F00DCCD93 /* Yo Intervengo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1DC2D81943CC7F00DCCD93 /* Yo IntervengoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1DC2ED1943CC7F00DCCD93 /* Build configuration list for PBXNativeTarget "Yo IntervengoTests" */;
+			buildPhases = (
+				EC1DC2D51943CC7F00DCCD93 /* Sources */,
+				EC1DC2D61943CC7F00DCCD93 /* Frameworks */,
+				EC1DC2D71943CC7F00DCCD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1DC2DF1943CC7F00DCCD93 /* PBXTargetDependency */,
+			);
+			name = "Yo IntervengoTests";
+			productName = "Yo IntervengoTests";
+			productReference = EC1DC2D91943CC7F00DCCD93 /* Yo IntervengoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1DC2AD1943CC7F00DCCD93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = 666;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jomobile.co;
+				TargetAttributes = {
+					EC1DC2D81943CC7F00DCCD93 = {
+						TestTargetID = EC1DC2B41943CC7F00DCCD93;
+					};
+				};
+			};
+			buildConfigurationList = EC1DC2B01943CC7F00DCCD93 /* Build configuration list for PBXProject "Yo Intervengo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1DC2AC1943CC7F00DCCD93;
+			productRefGroup = EC1DC2B61943CC7F00DCCD93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1DC2B41943CC7F00DCCD93 /* Yo Intervengo */,
+				EC1DC2D81943CC7F00DCCD93 /* Yo IntervengoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1DC2B31943CC7F00DCCD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC001B171943E14A00B56EDD /* btn.png in Resources */,
+				EC001B141943E06A00B56EDD /* bg.png in Resources */,
+				EC118CF41943ED030040BF30 /* btnK.png in Resources */,
+				EC1DC2CF1943CC7F00DCCD93 /* Main_iPad.storyboard in Resources */,
+				EC1DC2D41943CC7F00DCCD93 /* Images.xcassets in Resources */,
+				EC1DC2CC1943CC7F00DCCD93 /* Main_iPhone.storyboard in Resources */,
+				EC001B181943E14A00B56EDD /* btnh.png in Resources */,
+				EC118CF91943F4DC0040BF30 /* dates.png in Resources */,
+				EC1DC2C31943CC7F00DCCD93 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1DC2D71943CC7F00DCCD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1DC2E51943CC7F00DCCD93 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1DC2B11943CC7F00DCCD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1DC2C91943CC7F00DCCD93 /* _66AppDelegate.m in Sources */,
+				EC1DC2D21943CC7F00DCCD93 /* _66ViewController.m in Sources */,
+				EC1DC2C51943CC7F00DCCD93 /* main.m in Sources */,
+				EC118CF71943EF5C0040BF30 /* NVControllerGeneric.m in Sources */,
+				EC7E69821943D17E00852664 /* NewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1DC2D51943CC7F00DCCD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1DC2E71943CC7F00DCCD93 /* Yo_IntervengoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1DC2DF1943CC7F00DCCD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1DC2B41943CC7F00DCCD93 /* Yo Intervengo */;
+			targetProxy = EC1DC2DE1943CC7F00DCCD93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1DC2C11943CC7F00DCCD93 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1DC2C21943CC7F00DCCD93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC1DC2CA1943CC7F00DCCD93 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1DC2CB1943CC7F00DCCD93 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1DC2CD1943CC7F00DCCD93 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1DC2CE1943CC7F00DCCD93 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1DC2E31943CC7F00DCCD93 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1DC2E41943CC7F00DCCD93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1DC2E81943CC7F00DCCD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1DC2E91943CC7F00DCCD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1DC2EB1943CC7F00DCCD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yo Intervengo/Yo Intervengo-Prefix.pch";
+				INFOPLIST_FILE = "Yo Intervengo/Yo Intervengo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC1DC2EC1943CC7F00DCCD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yo Intervengo/Yo Intervengo-Prefix.pch";
+				INFOPLIST_FILE = "Yo Intervengo/Yo Intervengo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC1DC2EE1943CC7F00DCCD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yo Intervengo.app/Yo Intervengo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yo Intervengo/Yo Intervengo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yo IntervengoTests/Yo IntervengoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC1DC2EF1943CC7F00DCCD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yo Intervengo.app/Yo Intervengo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yo Intervengo/Yo Intervengo-Prefix.pch";
+				INFOPLIST_FILE = "Yo IntervengoTests/Yo IntervengoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1DC2B01943CC7F00DCCD93 /* Build configuration list for PBXProject "Yo Intervengo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1DC2E81943CC7F00DCCD93 /* Debug */,
+				EC1DC2E91943CC7F00DCCD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1DC2EA1943CC7F00DCCD93 /* Build configuration list for PBXNativeTarget "Yo Intervengo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1DC2EB1943CC7F00DCCD93 /* Debug */,
+				EC1DC2EC1943CC7F00DCCD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1DC2ED1943CC7F00DCCD93 /* Build configuration list for PBXNativeTarget "Yo IntervengoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1DC2EE1943CC7F00DCCD93 /* Debug */,
+				EC1DC2EF1943CC7F00DCCD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1DC2AD1943CC7F00DCCD93 /* Project object */;
+}
